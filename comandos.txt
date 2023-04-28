@@ -1,0 +1,13 @@
+comandos 
+backend
+cd whasadpo/backend
+npm install
+npm run build
+npx sequelize db:migrate
+npx sequelize db:seed:all
+
+
+frontend__
+cd ../frontend
+npm install
+npm run build
