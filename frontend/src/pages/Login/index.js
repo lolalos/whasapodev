@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    background: "url('http://whasapo.com/wp-content/uploads/2023/08/pintura-digital-montana-arbol-colorido-primer-plano-scaled.jpg')",
+    background: "url('http://www.whasapo.online/wp-content/uploads/2023/08/pintura-digital-montana-arbol-colorido-primer-plano-scaled-1.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "100vh",
@@ -88,7 +88,7 @@ const Login = () => {
           <div className={classes.paper}>
             <img
               className={classes.logo}
-              src="http://whasapo.com/wp-content/uploads/2023/06/Screenshot_17-removebg-preview-1.png"
+              src="http://www.whasapo.online/wp-content/uploads/2023/06/logologin.png"
               alt="Logo"
             />
             <Typography component="h1" variant="h5">
@@ -150,7 +150,7 @@ const Login = () => {
             className={classes.copyrightText}
             variant="body2"
           >
-            © 2023 WHASAPO DEV. Todos los derechos reservados. <MUILink href="https://whasapo.com/dev/" target="_blank" rel="noopener">whasapo.com</MUILink>
+            © 2023 WHASAPO DEV. Todos los derechos reservados. <MUILink href="https://whasapo.online/dev/" target="_blank" rel="noopener">whasapo.online</MUILink>
           </Typography>
         </Box>
       </Container>
@@ -159,4 +159,3 @@ const Login = () => {
 };
 
 export default Login;
-
